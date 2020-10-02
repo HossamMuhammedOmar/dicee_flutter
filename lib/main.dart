@@ -23,6 +23,20 @@ class MyApp extends StatelessWidget {
 class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: Image.asset('Images/dice1.png'),
+            ),
+            Expanded(
+              child: Image.asset('Images/dice1.png'),
+            ),
+          ],
+        )
+      ],
+    );
   }
 }

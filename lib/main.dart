@@ -29,10 +29,16 @@ class DicePage extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              child: Image.asset('Images/dice1.png'),
+              child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Image.asset('Images/dice1.png'),
+              ),
             ),
             Expanded(
-              child: Image.asset('Images/dice1.png'),
+              child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Image.asset('Images/dice1.png'),
+              ),
             ),
           ],
         )

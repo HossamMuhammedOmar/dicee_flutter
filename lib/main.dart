@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xfff1c40f),
+        backgroundColor: Color(0xffe74c3c),
         appBar: AppBar(
           title: Text('Dicee'),
-          backgroundColor: Color(0xfff1c40f),
+          backgroundColor: Color(0xffe74c3c),
         ),
         body: DicePage(),
       ),
